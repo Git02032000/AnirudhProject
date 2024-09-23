@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="8" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-20T03:57:05Z" name="Suite" finished-at="2024-09-20T03:57:16Z" duration-ms="10802">
+    <groups>
+      <group name="sanity">
+        <method signature="IHGTest.IHG()[pri:0, instance:com.grp.IHGTest@641147d0]" name="IHG" class="com.grp.IHGTest"/>
+      </group> <!-- sanity -->
+      <group name="regressoin">
+        <method signature="AmazonTest.AZ()[pri:0, instance:com.grp.AmazonTest@6e38921c]" name="AZ" class="com.grp.AmazonTest"/>
+        <method signature="IHGTest.IHG()[pri:0, instance:com.grp.IHGTest@641147d0]" name="IHG" class="com.grp.IHGTest"/>
+      </group> <!-- regressoin -->
+    </groups>
+    <test started-at="2024-09-20T03:57:05Z" name="Test" finished-at="2024-09-20T03:57:16Z" duration-ms="10802">
+      <class name="com.grp.IHGTest">
+        <test-method signature="IHG()[pri:0, instance:com.grp.IHGTest@641147d0]" started-at="2024-09-20T03:57:05Z" name="IHG" finished-at="2024-09-20T03:57:13Z" duration-ms="8470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IHG -->
+      </class> <!-- com.grp.IHGTest -->
+      <class name="com.grp.AmazonTest">
+        <test-method signature="AZ()[pri:0, instance:com.grp.AmazonTest@6e38921c]" started-at="2024-09-20T03:57:13Z" name="AZ" finished-at="2024-09-20T03:57:16Z" duration-ms="2305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AZ -->
+      </class> <!-- com.grp.AmazonTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+  <suite started-at="2024-09-20T03:57:16Z" name="Suite (0)" finished-at="2024-09-20T03:57:27Z" duration-ms="11627">
+    <groups>
+    </groups>
+    <test started-at="2024-09-20T03:57:16Z" name="Test" finished-at="2024-09-20T03:57:27Z" duration-ms="11627">
+      <class name="com.ng.IHGTest">
+        <test-method signature="IHG()[pri:0, instance:com.ng.IHGTest@2b4a2ec7]" started-at="2024-09-20T03:57:19Z" name="IHG" finished-at="2024-09-20T03:57:24Z" duration-ms="4926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IHG -->
+      </class> <!-- com.ng.IHGTest -->
+      <class name="com.ng.OrangeHRMTest">
+        <test-method signature="OHRM()[pri:0, instance:com.ng.OrangeHRMTest@51931956]" started-at="2024-09-20T03:57:16Z" name="OHRM" finished-at="2024-09-20T03:57:19Z" duration-ms="3559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OHRM -->
+      </class> <!-- com.ng.OrangeHRMTest -->
+      <class name="com.ng.FaceBookTest">
+        <test-method signature="fb()[pri:0, instance:com.ng.FaceBookTest@564718df]" started-at="2024-09-20T03:57:24Z" name="fb" finished-at="2024-09-20T03:57:27Z" duration-ms="3133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fb -->
+      </class> <!-- com.ng.FaceBookTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite (0) -->
+</testng-results>
